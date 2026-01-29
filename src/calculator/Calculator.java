@@ -154,7 +154,7 @@ public class Calculator implements ActionListener{
                     break;
             }
             textField.setText(String.valueOf(result));
-            num1 = result; 
+            num1 = result;
         }
 
         if(e.getSource() == clrButton) {
